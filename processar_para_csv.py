@@ -18,7 +18,7 @@ def limpar_texto(texto):
     
     return texto
 
-def processar_json_para_csv(arquivo_json='avaliacoes_kindle.json', arquivo_csv='avaliacoes_processadas.csv'):
+def processar_json_para_csv(arquivo_json='avaliacoes_negativas_kindle.json', arquivo_csv='avaliacoes_negativas_processadas.csv'):
     """
     Processa o JSON e converte para CSV com dados estruturados
     """

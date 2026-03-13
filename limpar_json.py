@@ -31,7 +31,7 @@ def limpar_comentario(texto):
     
     return texto
 
-def processar_json(arquivo_entrada='avaliacoes_kindle.json', arquivo_saida='avaliacoes_kindle_limpo.json'):
+def processar_json(arquivo_entrada='avaliacoes_negativas_kindle.json', arquivo_saida='avaliacoes_negativas_kindle_limpo.json'):
     """
     Processa o JSON e remove metadados de vídeo/imagem
     """
